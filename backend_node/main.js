@@ -1,4 +1,5 @@
 var http = require('http');
+console.log(http);
 
 http.createServer(function(request, response) {
   var headers = request.headers;
